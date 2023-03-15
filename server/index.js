@@ -34,7 +34,7 @@ app.post("/register", register);
 app.post("/login", login);
 app.get("/posts", getAllPosts);
 app.get("/userposts/:userId", getCurrentUserPosts);
-app.post("/post", isAuthenticated, addPost);
+app.post("/posts", isAuthenticated, addPost);
 app.put("/posts/:id", isAuthenticated, editPost);
 app.delete("/posts/:id", isAuthenticated, deletePost);
 

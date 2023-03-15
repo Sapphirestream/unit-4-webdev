@@ -18,7 +18,8 @@ const Auth = () => {
       return;
     }
 
-    const url = "https://socialmtn.devmountain.com";
+    //const url = "https://socialmtn.devmountain.com";
+    const url = "http://localhost:4000";
     const body = { username, password };
 
     axios
